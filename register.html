@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head ng-app="app1">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,29 +11,31 @@
 	<link rel="stylesheet" href="style/css/mastercss.css">
 	<title>Matcha</title>
 </head>
+
 <body class="container">
 	<section class="header">
 		<menu>
 			<nav class="navbar fixed-top navbar-expand-lg navbar-danger bg-danger">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+				 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"><img src="./res/ionicons.designerpack/md-heart-empty.svg" width="40" alt=""></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 					<a class="navbar-brand" href="index.html"><img src="./res/ionicons.designerpack/md-heart-empty.svg" width="40" alt="">Matcha</a>
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
-					<li class="nav-item"><a class="nav-link" href="messages.html">Messages</a></li>
-					<li class="nav-item"><a class="nav-link" href="notifications.html">Notifications</a></li>
-					<!-- <li class="nav-item">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+						<li class="nav-item"><a class="nav-link" href="messages.html">Messages</a></li>
+						<li class="nav-item"><a class="nav-link" href="notifications.html">Notifications</a></li>
+						<!-- <li class="nav-item">
 						<a class="nav-link disabled" href="#">Disabled</a>
 					</li> -->
 					</ul>
 					<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 					</form>
 				</div>
 			</nav>
@@ -43,47 +46,54 @@
 		<div class="inline right"><a href="notifications.html">notifications</a></div>
 		<div class="inline right">signin/signout</div>
 	</section>
-<!-- end of Header -->
+	<!-- end of Header -->
 
 
 	<section class="main">
 		<h2 class="center">Matcha</h2>
 		<form action="" method="post">
-			<div class="form-group">
-				<label for="username">Username</label>
-				<input class="form-control" type="text" name="username" id="username" placeholder="username">
+			<div class="row">
+				<div class="col-6">
+					<div class="form-group">
+						<label for="username">Username</label>
+						<input class="form-control" type="text" name="username" id="username" placeholder="username">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input class="form-control" type="text" name="email" id="email" placeholder="email">
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input class="form-control" type="text" name="name" id="name" placeholder="name">
+					</div>
+					<div class="form-group">
+						<label for="surname">Surname</label>
+						<input class="form-control" type="text" name="surname" id="surname" placeholder="surname">
+					</div>
+				</div>
 			</div>
-			<div class="form-group">
-				<label for="name">Name</label>
-				<input class="form-control" type="text" name="name" id="name" placeholder="name">
+			<div>
+				<div class="form-group">
+					<label for="password">Password</label>
+					<input class="form-control" type="password" name="psswd" id="password" placeholder="Password">
+				</div>
+				<div class="form-group">
+					<label for="confirm_password">Confirm Password</label>
+					<input class="form-control" type="password" name="psswd1" id="confirm_password" placeholder="confirm_password">
+				</div>
 			</div>
-			<div class="form-group">
-				<label for="surname">Surname</label>
-				<input class="form-control" type="text" name="surname" id="surname" placeholder="surname">
-			</div>
-			<div class="form-group">
-				<label for="password">Password</label>
-				<input class="form-control" type="password" name="psswd" id="password" placeholder="Password">
-			</div>
-			<div class="form-group">
-				<label for="confirm_password">Confirm Password</label>
-				<input class="form-control" type="password" name="psswd1" id="confirm_password" placeholder="confirm_password">
-			</div>
-			<!-- <div class="form-group">
-				<label for="age">Age</label>
-				<input class="form-control" type="text" name="age" id="age" placeholder="age">
-			</div> -->
-			<!-- <input class="form-control" type="date" name="" id="">
-			<div class="form-group"><input type="text" name="" id="" placeholder="Sex"></div> -->
 			<button class="btn btn-success" type="submit">Signup</button>
 		</form>
 	</section>
 	<section class="footer">footer</section>
 	<!-- footer -->
-	</body>
+</body>
 <script src="style/js/jquery/jquery.min.js"></script>
 <script src="style/js/bootstrap.min.js"></script>
 <script src="style/js/Angular/angular.min.js"></script>
 <script src="style/js/ang_masterjs.js"></script>
 <script src="style/js/masterjs.js"></script>
+
 </html>
