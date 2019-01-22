@@ -11,13 +11,13 @@
 </head>
 <body>
 	<section class="header">
-		<div class="inline"><a href="index.html"><img src="" width="50px" alt="">Matcha</a></div>
+		<div class="inline"><a href="index.php"><img src="" width="50px" alt="">Matcha</a></div>
 		<div class="inline right">profile</div>
 		<div class="inline right">signin/signout</div>
 	</section>
 	<section class="menu">
-		<div class="inline"><a href="index.html">index</a></div>
-		<div class="inline"><a href="profile.html">Profile</a></div>
+		<div class="inline"><a href="index.php">index</a></div>
+		<div class="inline"><a href="profile.php">Profile</a></div>
 		<div class="inline"><a href=""></a></div>
 	</section>
 	<section class="main">main</section>

@@ -18,14 +18,14 @@
 					<span class="navbar-toggler-icon"><img src="./res/ionicons.designerpack/md-heart-empty.svg" width="40" alt=""></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-					<a class="navbar-brand" href="index.html"><img src="./res/ionicons.designerpack/md-heart-empty.svg" width="40" alt="">Matcha</a>
+					<a class="navbar-brand" href="index.php"><img src="./res/ionicons.designerpack/md-heart-empty.svg" width="40" alt="">Matcha</a>
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 					<li class="nav-item active">
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
-					<li class="nav-item"><a class="nav-link" href="messages.html">Messages</a></li>
-					<li class="nav-item"><a class="nav-link" href="notifications.html">Notifications</a></li>
+					<li class="nav-item"><a class="nav-link" href="profile.php">Profile</a></li>
+					<li class="nav-item"><a class="nav-link" href="messages.php">Messages</a></li>
+					<li class="nav-item"><a class="nav-link" href="notifications.php">Notifications</a></li>
 					<!-- <li class="nav-item">
 						<a class="nav-link disabled" href="#">Disabled</a>
 					</li> -->
@@ -37,9 +37,9 @@
 				</div>
 			</nav>
 		</menu>
-		<div class="inline"><a href="index.html"><img src="" width="50px" alt="">Matcha</a></div>
-		<div class="inline right"><a href="profile.html">profile</a></div>
-		<div class="inline right"><a href="messages.html">messages</a></div>
-		<div class="inline right"><a href="notifications.html">notifications</a></div>
+		<div class="inline"><a href="index.php"><img src="" width="50px" alt="">Matcha</a></div>
+		<div class="inline right"><a href="profile.php">profile</a></div>
+		<div class="inline right"><a href="messages.php">messages</a></div>
+		<div class="inline right"><a href="notifications.php">notifications</a></div>
 		<div class="inline right">signin/signout</div>
 	</section>
